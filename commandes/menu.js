@@ -32,18 +32,18 @@ const temps = moment().format('HH:mm:ss');
 const date = moment().format('DD/MM/YYYY');
 
   let infoMsg =  `
-🦞╭───🦀✧DEVI SYMPA✧🦀───◆
+🦞╭─🦀✧DEVI SYMPA✧🦀─◆
 🦞│  🍑 *Préfix* : ${s.PREFIXE}
 🦞│  🍑 *Owner* : ${s.OWNER_NAME}
 🦀│  🍑 *Mode* : ${mode}
 🦞│  🍑 *Commands* : ${cm.length}
 🦞│  🍑 *Date* : ${date}
 🦞│  🌧️ *Hour* : ${temps}
-🦞│  💮 *Mémoire* : ${format(os.totalmem() - os.freemem())}/${format(os.totalmem())}
+🦞│   *Mémoire* : 1,54 GB/15,5 GB
 🦞│  🌺 *Plateforme* : ${os.platform()}
 🦀│  🍑 *Développer* : Djalega++ 
 🦞│  & M๏𝓷keℽ D Lบffy
-🦀╰───🦟─✧DEVILOUS✧─🖤───◆ \n\n`;
+🦀╰─🦟✧DEVILOUS✧🖤─◆ \n\n`;
     
 let menuMsg = `
 🍑 Yo ${nomAuteurMessage} la pêche ?
@@ -53,7 +53,7 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `🌺╭─🍑─❏ 🦟${cat}🖤 ❏`;
+        menuMsg += `🌺╭🍑❏ 🦟${cat}🖤❏`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 🍑│🌺 ${cmd}`;
@@ -65,7 +65,7 @@ let menuMsg = `
     menuMsg += `
 (-_-)◇            ◇(-_-)
 *»»———💮— ★ —💮———««*
-"Azy gardez la pêche 🍑;Pêche and love 😘."
+"Azy garde la pêche 🍑;Pêche and love 😘."
  
     Powered by Zokou-MD
                                                 
