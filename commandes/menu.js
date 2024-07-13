@@ -34,15 +34,15 @@ const date = moment().format('DD/MM/YYYY');
   let infoMsg =  `
 🦞╭─🦀✧DEVI SYMPA✧🦀─◆
 🦞│  🍑 *Préfix* : ${s.PREFIXE}
-🦞│  🍑 *Owner* : ${s.OWNER_NAME}
+🦞│  🍑 *Owner* : DEVILOUS 
 🦀│  🍑 *Mode* : ${mode}
 🦞│  🍑 *Commands* : ${cm.length}
 🦞│  🍑 *Date* : ${date}
 🦞│  🌧️ *Hour* : ${temps}
-🦞│   *Mémoire* : 1,54 GB/15,5 GB
+🦞│   *Mémoire* : 1,54GB/15,5GB
 🦞│  🌺 *Plateforme* : ${os.platform()}
 🦀│  🍑 *Développer* : Djalega++ 
-🦞│  & M๏𝓷keℽ D Lบffy
+🦞│  & M๏𝓷keℽ D Lบffy(les goat 🐐)
 🦀╰─🦟✧DEVILOUS✧🖤─◆ \n\n`;
     
 let menuMsg = `
@@ -53,7 +53,7 @@ let menuMsg = `
 `;
 
     for (const cat in coms) {
-        menuMsg += `🌺╭🍑❏ 🦟${cat}🖤❏`;
+        menuMsg += `🌺╭🍑❏🦟${cat}🖤❏`;
         for (const cmd of coms[cat]) {
             menuMsg += `
 🍑│🌺 ${cmd}`;
